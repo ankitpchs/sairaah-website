@@ -338,7 +338,7 @@ address {
   justify-content: space-between;
   max-width: var(--container-max);
   margin-inline: auto;
-  padding: 1.1rem var(--container-pad);
+  padding: 0.6rem var(--container-pad);
 }
 
 .nav-logo {
@@ -357,10 +357,25 @@ address {
 }
 
 .nav-logo__img {
-  height: 48px;
+  height: 80px;
   width: auto;
   display: block;
   object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: logoPulse 3s ease-in-out infinite;
+}
+
+.nav-logo__img:hover {
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes logoPulse {
+  0%   { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); }
+  50%  { box-shadow: 0 4px 24px rgba(210, 125, 45, 0.5); }
+  100% { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); }
 }
 
 /* Hamburger */
