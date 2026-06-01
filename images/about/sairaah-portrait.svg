@@ -1,0 +1,35 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5EDE0"/>
+      <stop offset="100%" stop-color="#E0C8A8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#C65D2E" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#C65D2E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="560" fill="url(#bg)"/>
+  <rect width="480" height="560" fill="url(#glow)"/>
+  <!-- Subtle pattern dots -->
+  <circle cx="60" cy="60" r="3" fill="#C65D2E" opacity="0.12"/>
+  <circle cx="420" cy="60" r="3" fill="#C65D2E" opacity="0.12"/>
+  <circle cx="60" cy="500" r="3" fill="#C65D2E" opacity="0.12"/>
+  <circle cx="420" cy="500" r="3" fill="#C65D2E" opacity="0.12"/>
+  <!-- Person silhouette -->
+  <!-- Head -->
+  <circle cx="240" cy="170" r="85" fill="#C65D2E" opacity="0.25"/>
+  <circle cx="240" cy="158" r="72" fill="#D4A24C" opacity="0.35"/>
+  <!-- Neck -->
+  <rect x="215" y="232" width="50" height="40" rx="8" fill="#D4A24C" opacity="0.28"/>
+  <!-- Shoulders / torso -->
+  <ellipse cx="240" cy="390" rx="155" ry="175" fill="#C65D2E" opacity="0.22"/>
+  <!-- Decorative gold frame (dashed border) -->
+  <rect x="24" y="24" width="432" height="512" rx="16" fill="none" stroke="#D4A24C" stroke-width="2" stroke-dasharray="10,6" opacity="0.45"/>
+  <!-- "Add photo" guidance text -->
+  <text x="240" y="280" font-family="Georgia,'Times New Roman',serif" font-size="18" fill="#8A6040" text-anchor="middle" opacity="0.75">Add Sairaah's portrait photo</text>
+  <text x="240" y="308" font-family="'Arial',sans-serif" font-size="13" fill="#A07050" text-anchor="middle" opacity="0.6">Replace this file: images/about/sairaah-portrait.jpg</text>
+  <!-- Decorative name bar -->
+  <rect x="80" y="490" width="320" height="44" rx="8" fill="#C65D2E" opacity="0.2"/>
+  <text x="240" y="518" font-family="Georgia,'Times New Roman',serif" font-size="16" font-weight="600" fill="#7A3820" text-anchor="middle" opacity="0.8" letter-spacing="1">Sairaah Luther</text>
+</svg>

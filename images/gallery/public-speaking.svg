@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0A04"/>
+      <stop offset="100%" stop-color="#2A1A08"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="35%" r="38%">
+      <stop offset="0%" stop-color="#E8C070" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#E8C070" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#spotlight)"/>
+  <!-- Podium -->
+  <rect x="248" y="250" width="104" height="80" rx="4" fill="#C65D2E" opacity="0.6"/>
+  <rect x="230" y="244" width="140" height="14" rx="4" fill="#D4A24C" opacity="0.65"/>
+  <!-- Speaker figure -->
+  <circle cx="300" cy="165" r="38" fill="#FAF5EF" opacity="0.85"/>
+  <path d="M250 248 L268 200 Q300 188 332 200 L350 248Z" fill="#FAF5EF" opacity="0.85"/>
+  <!-- Arms raised in speaking gesture -->
+  <line x1="268" y1="215" x2="235" y2="196" stroke="#FAF5EF" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <line x1="332" y1="215" x2="365" y2="196" stroke="#FAF5EF" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <!-- Microphone -->
+  <line x1="300" y1="248" x2="300" y2="232" stroke="#D4A24C" stroke-width="5" stroke-linecap="round"/>
+  <rect x="290" y="222" width="20" height="16" rx="8" fill="#D4A24C" opacity="0.9"/>
+  <!-- Sound waves from speaker -->
+  <path d="M150 175 Q130 190 150 205" fill="none" stroke="#D4A24C" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M130 165 Q100 190 130 215" fill="none" stroke="#D4A24C" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <path d="M450 175 Q470 190 450 205" fill="none" stroke="#D4A24C" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M470 165 Q500 190 470 215" fill="none" stroke="#D4A24C" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <!-- Audience dots (small silhouettes) -->
+  <circle cx="120" cy="350" r="18" fill="#FAF5EF" opacity="0.2"/>
+  <circle cx="185" cy="358" r="16" fill="#FAF5EF" opacity="0.18"/>
+  <circle cx="415" cy="358" r="16" fill="#FAF5EF" opacity="0.18"/>
+  <circle cx="480" cy="350" r="18" fill="#FAF5EF" opacity="0.2"/>
+  <!-- Caption bar -->
+  <rect x="0" y="345" width="600" height="55" fill="rgba(0,0,0,0.6)"/>
+  <text x="300" y="381" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#FAF5EF" text-anchor="middle" opacity="0.95" letter-spacing="1.5">Student Engagement Event</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Two interlocking rings symbolising collaboration -->
+  <circle cx="16" cy="26" r="13" stroke="#C65D2E" stroke-width="2.5"/>
+  <circle cx="32" cy="26" r="13" stroke="#D4A24C" stroke-width="2.5"/>
+  <!-- Small person in left ring -->
+  <circle cx="11" cy="22" r="3" fill="#C65D2E" opacity="0.65"/>
+  <line x1="11" y1="25" x2="11" y2="32" stroke="#C65D2E" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  <!-- Small person in right ring -->
+  <circle cx="37" cy="22" r="3" fill="#D4A24C" opacity="0.65"/>
+  <line x1="37" y1="25" x2="37" y2="32" stroke="#D4A24C" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+  <!-- Handshake dot at centre overlap -->
+  <circle cx="24" cy="26" r="3" fill="#C65D2E" opacity="0.5"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Cupped hands holding heart -->
+  <path d="M4 30 Q6 23 12 23 L20 23 Q24 21 24 25 Q24 21 28 23 L36 23 Q42 23 44 30 L40 40 Q32 46 24 46 Q16 46 8 40 Z" fill="#C65D2E" opacity="0.85"/>
+  <!-- Heart above (two circles + triangle) -->
+  <circle cx="18" cy="14" r="6" fill="#D4A24C"/>
+  <circle cx="28" cy="14" r="6" fill="#D4A24C"/>
+  <polygon points="12,17 34,17 23,28" fill="#D4A24C"/>
+</svg>

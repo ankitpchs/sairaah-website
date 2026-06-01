@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Child figure -->
+  <circle cx="22" cy="13" r="7" fill="#C65D2E"/>
+  <path d="M14 33 L18 21 Q22 18 26 21 L30 33Z" fill="#C65D2E"/>
+  <line x1="18" y1="33" x2="15" y2="44" stroke="#C65D2E" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="26" y1="33" x2="29" y2="44" stroke="#C65D2E" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 5-pointed star (top-right) -->
+  <polygon points="38,3 39.8,8.5 45.5,8.5 41,12 42.8,17.5 38,14 33.2,17.5 35,12 30.5,8.5 36.2,8.5" fill="#D4A24C"/>
+</svg>

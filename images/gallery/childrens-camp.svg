@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1C1008"/>
+      <stop offset="100%" stop-color="#3A2615"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#E8C070" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#E8C070" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#sun)"/>
+  <!-- Sun rays at top centre -->
+  <circle cx="300" cy="80" r="34" fill="#D4A24C" opacity="0.75"/>
+  <line x1="300" y1="36" x2="300" y2="20" stroke="#D4A24C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="340" y1="50" x2="354" y2="38" stroke="#D4A24C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="260" y1="50" x2="246" y2="38" stroke="#D4A24C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="354" y1="80" x2="370" y2="80" stroke="#D4A24C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="246" y1="80" x2="230" y2="80" stroke="#D4A24C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <!-- Four children playing -->
+  <circle cx="150" cy="250" r="20" fill="#C65D2E" opacity="0.85"/>
+  <path d="M128 300 L135 265 Q150 258 165 265 L172 300Z" fill="#C65D2E" opacity="0.85"/>
+  <circle cx="240" cy="240" r="22" fill="#D4A24C" opacity="0.8"/>
+  <path d="M216 295 L224 258 Q240 250 256 258 L264 295Z" fill="#D4A24C" opacity="0.8"/>
+  <circle cx="360" cy="240" r="22" fill="#FAF5EF" opacity="0.8"/>
+  <path d="M336 295 L344 258 Q360 250 376 258 L384 295Z" fill="#FAF5EF" opacity="0.8"/>
+  <circle cx="450" cy="250" r="20" fill="#C65D2E" opacity="0.85"/>
+  <path d="M428 300 L435 265 Q450 258 465 265 L472 300Z" fill="#C65D2E" opacity="0.85"/>
+  <!-- Stars -->
+  <polygon points="80,100 82,108 90,108 84,113 86,121 80,116 74,121 76,113 70,108 78,108" fill="#D4A24C" opacity="0.5"/>
+  <polygon points="520,90 521.5,96 528,96 523,100 524.5,106 520,103 515.5,106 517,100 512,96 518.5,96" fill="#D4A24C" opacity="0.45"/>
+  <!-- Caption bar -->
+  <rect x="0" y="345" width="600" height="55" fill="rgba(0,0,0,0.55)"/>
+  <text x="300" y="381" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#FAF5EF" text-anchor="middle" opacity="0.95" letter-spacing="1.5">Children's Welfare Camp</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0C06"/>
+      <stop offset="100%" stop-color="#3A1E0E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#D4A24C" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#D4A24C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <!-- Large gift box -->
+  <rect x="210" y="200" width="180" height="140" rx="8" fill="#C65D2E" opacity="0.75"/>
+  <rect x="200" y="190" width="200" height="22" rx="4" fill="#A84A22" opacity="0.8"/>
+  <!-- Ribbon vertical -->
+  <rect x="285" y="190" width="30" height="150" rx="4" fill="#D4A24C" opacity="0.75"/>
+  <!-- Ribbon horizontal -->
+  <rect x="200" y="195" width="200" height="22" rx="4" fill="#D4A24C" opacity="0.55"/>
+  <!-- Ribbon bow -->
+  <ellipse cx="280" cy="190" rx="34" ry="18" transform="rotate(-15 280 190)" fill="#D4A24C" opacity="0.8"/>
+  <ellipse cx="320" cy="190" rx="34" ry="18" transform="rotate(15 320 190)" fill="#D4A24C" opacity="0.8"/>
+  <circle cx="300" cy="190" r="14" fill="#C65D2E" opacity="0.9"/>
+  <!-- Large heart (top centre) -->
+  <circle cx="272" cy="118" r="36" fill="#C65D2E" opacity="0.7"/>
+  <circle cx="328" cy="118" r="36" fill="#C65D2E" opacity="0.7"/>
+  <polygon points="236,135 364,135 300,188" fill="#C65D2E" opacity="0.7"/>
+  <!-- Hands (cupped, below box) -->
+  <path d="M140 310 Q150 295 175 295 L210 295 Q220 290 220 298 Q220 290 240 295 L290 295 Q330 295 335 310 L320 330 Q270 348 230 348 Q190 348 155 330 Z" fill="#FAF5EF" opacity="0.2"/>
+  <path d="M310 310 Q320 295 345 295 L380 295 Q390 290 390 298 Q390 290 410 295 L455 295 Q465 295 465 310 L448 330 Q408 348 370 348 Q330 348 312 330 Z" fill="#FAF5EF" opacity="0.18"/>
+  <!-- Sparkles -->
+  <circle cx="135" cy="155" r="4" fill="#D4A24C" opacity="0.5"/>
+  <circle cx="465" cy="140" r="3.5" fill="#D4A24C" opacity="0.45"/>
+  <circle cx="155" cy="200" r="2.5" fill="#FAF5EF" opacity="0.35"/>
+  <circle cx="445" cy="195" r="2.5" fill="#FAF5EF" opacity="0.35"/>
+  <!-- Caption bar -->
+  <rect x="0" y="345" width="600" height="55" fill="rgba(0,0,0,0.55)"/>
+  <text x="300" y="381" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#FAF5EF" text-anchor="middle" opacity="0.95" letter-spacing="1.5">Donation Drive</text>
+</svg>

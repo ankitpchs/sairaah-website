@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Elderly person figure -->
+  <circle cx="16" cy="11" r="6" fill="#C65D2E"/>
+  <path d="M8 30 L12 20 Q16 17 20 20 L24 30Z" fill="#C65D2E" stroke="none"/>
+  <line x1="12" y1="30" x2="10" y2="44" stroke="#C65D2E" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="30" x2="22" y2="44" stroke="#C65D2E" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Walking cane -->
+  <path d="M25 21 C28 26 30 33 26 44" stroke="#D4A24C" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Heart (top-right): two circles + triangle -->
+  <circle cx="36" cy="10" r="4" fill="#D4A24C"/>
+  <circle cx="43" cy="10" r="4" fill="#D4A24C"/>
+  <polygon points="32,13 47,13 39.5,21" fill="#D4A24C"/>
+</svg>

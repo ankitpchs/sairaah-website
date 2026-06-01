@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Venus symbol -->
+  <circle cx="21" cy="19" r="11" stroke="#C65D2E" stroke-width="2.5"/>
+  <line x1="21" y1="30" x2="21" y2="42" stroke="#C65D2E" stroke-width="2.5"/>
+  <line x1="13" y1="37" x2="29" y2="37" stroke="#C65D2E" stroke-width="2.5"/>
+  <!-- Upward-right arrow (empowerment/rise) -->
+  <line x1="33" y1="16" x2="42" y2="7" stroke="#D4A24C" stroke-width="2.5"/>
+  <polyline points="34,7 42,7 42,15" stroke="#D4A24C" stroke-width="2.5"/>
+</svg>

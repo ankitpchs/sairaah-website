@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160C0A"/>
+      <stop offset="100%" stop-color="#321818"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#C65D2E" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#C65D2E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <!-- Large medical cross (centre) -->
+  <rect x="270" y="100" width="60" height="160" rx="8" fill="#C65D2E" opacity="0.75"/>
+  <rect x="210" y="160" width="180" height="60" rx="8" fill="#C65D2E" opacity="0.75"/>
+  <!-- Elder person figure (left of cross) -->
+  <circle cx="155" cy="180" r="28" fill="#FAF5EF" opacity="0.75"/>
+  <path d="M120 248 L133 200 Q155 190 177 200 L190 248Z" fill="#FAF5EF" opacity="0.75"/>
+  <!-- Cane -->
+  <path d="M192 208 C198 222 200 234 195 252" stroke="#D4A24C" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <!-- Volunteer / care giver figure (right) -->
+  <circle cx="445" cy="180" r="28" fill="#D4A24C" opacity="0.75"/>
+  <path d="M410 248 L423 200 Q445 190 467 200 L480 248Z" fill="#D4A24C" opacity="0.75"/>
+  <!-- Heart symbol -->
+  <circle cx="148" cy="100" r="14" fill="#C65D2E" opacity="0.55"/>
+  <circle cx="170" cy="100" r="14" fill="#C65D2E" opacity="0.55"/>
+  <polygon points="134,108 184,108 159,128" fill="#C65D2E" opacity="0.55"/>
+  <!-- Caption bar -->
+  <rect x="0" y="345" width="600" height="55" fill="rgba(0,0,0,0.55)"/>
+  <text x="300" y="381" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#FAF5EF" text-anchor="middle" opacity="0.95" letter-spacing="1.5">Senior Citizens Health Camp</text>
+</svg>

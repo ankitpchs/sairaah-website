@@ -1,6 +1,6 @@
-# Sairaah Luthar — Youth Founder & Student Ambassador, May Care Foundation Trust
+﻿# Sairaah Luther — Youth Founder & Student Ambassador, May Care Foundation Trust
 
-Personal website for Sairaah Luthar, Youth Founder and Student Ambassador at May Care Foundation Trust.
+Personal website for Sairaah Luther, Youth Founder and Student Ambassador at May Care Foundation Trust.
 
 ## Setup
 
